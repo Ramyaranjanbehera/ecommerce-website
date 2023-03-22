@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="order placed.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>payment</title>
+</head>
+          <style>
+              #myNumber{
+                  font-size:100px;
+                  text-align:center;
+                  margin:50px auto;
+                  font-family:Arial, sans-serif;
+              }
+              </style>
+<body onload="showRandomNumber();">
+  <div class="container text-center">
+   <div class="container-fluid">
+     <h1>Thank you.</h1>
+     <p class="lead w-lg-50 mx-auto">Your order has been placed successfully.</p>
+     <p class="w-lg-50 mx-auto">Your order number is <a href="#">
+       <script src="https://randojs.com/1.0.0.js"></script>
+       <script>
+         function showRandomNumber(){
+           document.getElementById("myNumber").innerHTML = rando(1000000000,5545787885);
+          }
+          </script>
+          <div id="myNumber"></div>
+        </a>. We will immediatelly process your order and it will be delivered in 2 - 5 business days.</p>
+    </div>
+    <div class="go-home"><a href="index.html"><button class="go-to-home">Go to home</button></a></div>
+</body>
+</html>

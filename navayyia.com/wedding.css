@@ -1,0 +1,157 @@
+*{margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  .contenier{display: block;
+    margin: auto;
+    width: 1300px;
+    border: auto;
+    margin-left: auto;
+    margin-right: auto;}
+  
+  
+  
+  header{
+    display: flex;
+    /* padding: 20px 80px; */
+    height: 12vh;
+    /* background-color: #5b0e2d; */
+    font-family: 'Times New Roman', Times, serif;
+    }
+    nav{
+      display: flex;
+    }
+  .logo{
+    display: flex;
+    align-items: center;
+    }
+    .logo img{
+      width: 130px;
+      height: 130px;
+      padding: 0 25px;
+    }
+  nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 12vh;
+    align-items: center;
+    
+  }
+  nav ul .we{ list-style: none;
+    padding: 0 23px;
+  }
+  nav ul .we a{
+    color: black;
+    text-decoration: none;
+  }
+  nav ul .we a:hover{
+    font-weight: bolder;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+  }
+  .search input{
+    width: 380px;
+    height: 23px;
+    /* border-radius:6px; */
+  }
+  
+  
+  /* ul */
+   .types{display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    /* row-gap: 5px; */
+    /* column-gap: 5px; */
+    /* width: 250px; */
+    list-style: none;} 
+
+   .types li:hover{color: brown;
+      transform: translateY(9px);
+    cursor: pointer;} 
+    
+    .types li{transition: 0.6s ease-in-out;
+    display:inline-block;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 2px solid #886a6a;
+    margin-top: 0;
+    top: 0;
+    position: relative;
+    bottom: 90px; ;
+     } 
+ 
+    a{text-decoration: none;}
+  
+    .ui{padding-bottom:100px;}
+
+    .contrnt{display: grid;
+      justify-items: center;
+      /* border: 1px solid #886a6a; */
+      /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+      /* grid-template-rows: 1fr 1fr; */
+      } 
+
+.add-to-cart{position: absolute;background-color: #23d5ab;
+  border-radius: 20px;
+bottom: 90px;
+right: 10px;
+left: 10px;
+padding: 10px 30px;}   
+.add-to-cart  a{color: black;}    
+
+        .rs{position: absolute;color: black;
+          bottom: 65px;
+          left: 0px;
+        right: 90px;
+      }
+
+        .discount{position: absolute;color: black;
+          bottom: 65px;
+          right: 25px;
+          left: 80px;}
+          
+          .rating{position: absolute;color: black;
+          left: 0;
+          bottom: 0px;}
+
+          
+          body,header{ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 10s ease infinite;
+          }
+          @keyframes gradient {
+            0% {
+              background-position: 0% 50%;
+            }
+            50% {
+              background-position: 100% 50%;
+            }
+            100% {
+              background-position: 0% 50%;
+            }
+          }
+          
+
+
+  
+  footer{color: #23d5ab;font-family: sans-serif; padding: 10px;}
+  .art{display: flex;gap: 70px;}
+  li{list-style: none;}
+  .bb{display: flex;flex-direction: row;}
+  .imagedc{display: flexbox;flex-direction: column;}
+  .pp{justify-content: left;}
+  .mm{ display: flex;flex-direction: column;}
+  .fat ul{list-style: none;}
+  .fat a{color: #23d5ab;}
+  .customer{font-family: 'Times New Roman', Times, serif;font-weight:bold ;font-size: 15px;}
+  .oi{display: flex;flex-direction: column;}
+  .oi.ii{justify-content: left;}
+  .oi.ii.return{justify-content: left;}
+  .onlinee,.best,.affordable,.indider,.insideri,.elite,.icon,.app,.history,.soa,.exp,.keep{color: #23d5ab;font-size: 15px;font-weight: bold;}
+  .if,.be,.smart,.one,.every,.there,.co,.fashion,.world,.several,.is,.you,.ootd,.imagine,.whether,.since,.feed,.just,.bonus,.very,.no,.becoming,.shoping,.another,.enjoy-the{font-size: 13px;}
+  .copy-right{text-align: center;color: #5c74a4;}
+  a{text-decoration: none;}

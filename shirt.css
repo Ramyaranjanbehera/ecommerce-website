@@ -1,0 +1,142 @@
+*{margin: 0;
+  padding: 0;border: 0;font-family: 'Times New Roman', Times, serif;}
+    header{
+    display: flex;
+    /* padding: 20px 80px; */
+    height: 12vh;
+    /* background-color: #ffb6c1; */
+    font-family: 'Times New Roman', Times, serif;
+    }
+    nav{
+      display: flex;
+    }
+    @media screen and (min-width: 480px) {
+      #leftsidebar {width: 200px; float: left;}
+      #main {margin-left: 216px;}
+    }
+  .logo{
+    display: flex;
+    align-items: center;
+    }
+    .logo img{
+      width: 130px;
+      height: 130px;
+      padding: 0 25px;
+    }
+  nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 12vh;
+    align-items: center;
+    
+  }
+  nav ul li{ list-style: none;
+    padding: 0 23px;
+  }
+  nav ul li a{
+    color: black;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    font-weight: bolder;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+  }
+  .search input{
+    width: 380px;
+    height: 23px;
+    border-radius:6px;
+  }
+  
+  .types{display: flex; 
+    /* grid-template-rows: 1fr 1fr; */
+    /* grid-template-columns: 1fr; */
+    gap: 10px;
+    list-style: none;}
+  
+    .types li{display: inline-block;
+    /* border: 2px solid #5b0e2d; */
+  position: relative;
+  padding-bottom: 38px;
+  margin-top: 9px;
+  margin-left: 5px;
+  top: 0;
+  }
+  
+  .contrnt{display: inline-block;
+    /* background-image: url(jee.jpg); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat;background-size: cover; */
+  /* justify-items: center; */
+  }
+  
+  .t-kurti{font-size: 12px;
+    position: absolute;
+    /* display: inline-block; */
+    /* top: 10px; */
+  font-weight: bolder;
+  color: black;
+  padding: 5px 6px;
+  
+  /* flex-direction: column; */
+  /* position: absolute; */
+  top: 120px;}
+  
+  
+  /* .section{background-image: url(jee.jpg);
+    width: 200px;
+    height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  } */
+  
+  .sponsored{color: black;background-color: #557a95;padding: 10px;display: flex;justify-items: left;font-weight: bold;font-size: 20px;opacity: 100%;}
+  
+  
+  
+  body,header,.sponsored{ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  footer{color: #23d5ab;font-family: sans-serif; padding: 10px;}
+  .art{display: flex;gap: 70px;}
+  li{list-style: none;}
+  .bb{display: flex;flex-direction: row;}
+  .imagedc{display: flexbox;flex-direction: column;}
+  .pp{justify-content: left;}
+  .mm{ display: flex;flex-direction: column;}
+  .fat ul{list-style: none;}
+  .fat a{color: #23d5ab;}
+  .customer{font-family: 'Times New Roman', Times, serif;font-weight:bold ;font-size: 15px;}
+  .oi{display: flex;flex-direction: column;}
+  .oi.ii{justify-content: left;}
+  .oi.ii.return{justify-content: left;}
+  .onlinee,.best,.affordable,.indider,.insideri,.elite,.icon,.app,.history,.soa,.exp,.keep{color: #23d5ab;font-size: 15px;font-weight: bold;}
+  .if,.be,.smart,.one,.every,.there,.co,.fashion,.world,.several,.is,.you,.ootd,.imagine,.whether,.since,.feed,.just,.bonus,.very,.no,.becoming,.shoping,.another,.enjoy-the{font-size: 13px;}
+  .copy-right{text-align: center;color: #5c74a4;}
+  a{text-decoration: none;}

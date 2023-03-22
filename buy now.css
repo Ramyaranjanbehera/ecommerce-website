@@ -1,0 +1,243 @@
+*{margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  .contenier{display: block;
+    margin: auto;
+    width: 1000px;
+    border: auto;
+    margin-left: auto;
+    margin-right: auto;
+  position: relative;
+}
+  
+  
+  
+  header{
+    display: flex;
+    /* padding: 20px 80px; */
+    height: 12vh;
+    /* background-color: #5b0e2d; */
+    font-family: 'Times New Roman', Times, serif;
+    }
+    nav{
+      display: flex;
+    }
+  .logo{
+    display: flex;
+    align-items: center;
+    }
+    @media screen and (min-width: 1200px) {
+      #leftsidebar {width: 200px; float: left;}
+      #main {margin-left: 216px;}
+    }
+    .logo img{
+      width: 150px;
+      height: 150px;
+      padding: 0 25px;
+    }
+  nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 12vh;
+    align-items: center;
+    
+  }
+  nav ul .we{ list-style: none;
+    padding: 0 23px;
+  }
+  nav ul .we a{
+    color: black;
+    text-decoration: none;
+  }
+  nav ul .we a:hover{
+    font-weight: bolder;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+  }
+  .search input{
+    width: 380px;
+    height: 23px;
+    /* border-radius:6px; */
+  }
+
+/* ----- */
+
+
+
+/* body { */
+  /* font-family: Arial, Helvetica, sans-serif; */
+/* } */
+.in-imge{ display: flex;
+  justify-content: center;
+position: relative;
+
+align-items: center;
+}
+
+
+
+
+/* body { */
+  /* font-family: Arial, Helvetica, sans-serif; */
+/* } */
+
+.navbar {
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+.about-product{display:inline-block;
+  font-size: 20px;
+  position: relative;
+  width: 880px;
+  height: 20px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+
+}
+
+.colour{position: absolute;
+top: 0;
+right: 0;}
+.blue{color: blue;
+font-weight: bold;}
+.burlywood{color: burlywood;
+font-weight: bold;}
+.red{color: red;
+font-weight: bold;}
+.green{color:green;
+font-weight: bold;}
+
+.price-i{
+position: relative;
+width: 300px;
+padding-top: 10px;
+}
+.mrp{opacity: 50%;
+position: absolute;
+left: 95px;
+top: 10px;
+text-decoration: line-through;
+}
+.discount{position: absolute;
+top: 10px;
+left: 195px;
+color: green;}
+.tax{
+ color: rgb(210, 6, 118);
+ padding-right: 10px;
+padding-bottom: 10px;
+
+}
+ .blue{font-size: 20px;}
+ .burlywood{font-size: 20px;}
+ .red{font-size: 20px;}
+ .green{font-size: 20px;}
+ul{list-style: none;}
+.product{text-decoration: underline;}
+.sub{display: grid;
+gap: 10px;}
+.size{color: rgb(228, 97, 45);
+font-size: 20px;}
+
+.buy-now{background-color:white;
+border: 2px solid black;
+border-radius: 30px;
+color: red;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 30px;
+position: absolute;
+bottom: 0;
+left: 350px;
+right: 350px;
+cursor: pointer;
+}
+.product-details{padding-bottom: 30px;}
+
+
+.about-product,.price-i,.size,.product-details,.sub{padding-left: 30px;}
+
+
+body,.contenier{ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
